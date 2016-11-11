@@ -1,0 +1,61 @@
+/*
+Theme Name: rzart
+Description: Theme for the Rita Ziegler Art
+Author: Linda Ziegler Speight
+Template: snapshot
+
+*/
+/* =Theme customization starts here */
+@font-face {
+  font-family: MurrayHill;
+  src: url(murrayhillboldregular.ttf); }
+body {
+  background: #fff; }
+
+/*** header ***/
+#top-area #logo h1 {
+  font-family: MurrayHill, Georgia, serif;
+  font-size: 3em; }
+  #top-area #logo h1 em {
+    background-image: none; }
+
+#home-slider-below {
+  margin-bottom: 0px;
+  height: 0px; }
+
+/*** content area ***/
+#panels-home #post-main .entry-content {
+  padding-bottom: 0px; }
+  #panels-home #post-main .entry-content p {
+    font-size: 16px;
+    line-height: 18px; }
+#panels-home .entry-content a {
+  color: #f1f1f1; }
+
+/*** gallery plugin ***/
+.wonderplugingridgallery .wonderplugin-gridgallery-item a[href="http://www.wonderplugin.com/wordpress-gridgallery/"] {
+  display: none;
+  background-color: red; }
+
+ /*
+#gridgallery-html5-lightbox #html5-elem-box #html5-watermark,
+.html5-watermark {
+	display: none!important;
+	background-color:red;
+} */
+
+#footer {
+	margin-top: 0px;
+	min-height: initial;
+	.container {
+		width: 100%;
+		height: 40px;
+		max-height: 40px;
+		background-color: $darker_grey;
+		#footer-copyright {
+			.owner {
+				text-align: center;
+			}
+		}
+	}
+}
